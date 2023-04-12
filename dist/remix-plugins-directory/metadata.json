@@ -1,5 +1,15 @@
 [
 	{
+		"description": "编译、部署、调用星火链网的 solidity 合约",
+		"displayName": "Bif Network",
+		"events": [],
+		"icon": "https://bitfactory.cn/favicon.ico",
+		"location": "sidePanel",
+		"methods": [],
+		"name": "bif",
+		"url": "https://bif.remix-project.cn/"
+	},
+	{
 		"name": "celo-remix-plugin",
 		"displayName": "Celo",
 		"description": "Deploy and Run Transactions with Celo.",
