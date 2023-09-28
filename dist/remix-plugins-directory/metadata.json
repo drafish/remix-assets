@@ -192,12 +192,12 @@
 		"description": "Deploy and interact with Moonbeam.",
 		"events": [],
 		"methods": [],
-		"url": "https://purestake.github.io/moonbeam-remix-plugin",
-		"repo": "https://github.com/PureStake/moonbeam-remix-plugin",
-		"maintainedBy": "Purestake",
-		"authorContact": "",
-		"icon": "https://purestake.github.io/moonbeam-remix-plugin/icon.png",
-		"documentation": "https://github.com/purestake/moonbeam-remix-plugin",
+		"url": "https://moonbeam-foundation.github.io/moonbeam-remix-plugin",
+		"repo": "https://github.com/moonbeam-foundation/moonbeam-remix-plugin",
+		"maintainedBy": "Moonbeam Foundation",
+		"authorContact": "alberto@papermoon.io",
+		"icon": "https://moonbeam-foundation.github.io/moonbeam-remix-plugin/icon.png",
+		"documentation": "https://github.com/moonbeam-foundation/moonbeam-remix-plugin",
 		"version": "0.0.1",
 		"location": "sidePanel"
 	},
@@ -310,7 +310,7 @@
 	},
 	{
 		"name": "sourcify",
-		"displayName": "Sourcify",
+		"displayName": "Contract verification - Sourcify",
 		"description": "Solidity contract and metadata verification service",
 		"version": "0.8.7",
 		"methods": [
@@ -334,18 +334,18 @@
 		"authorContact": ""
 	},
 	{
-		"name": "starkNet_compiler",
-		"displayName": "StarkNet",
+		"name": "Starknet",
+		"displayName": "Starknet",
 		"methods": [],
 		"version": "0.1.0-alpha",
-		"url": "https://d2vlv184tvzarc.cloudfront.net/",
-		"description": "Compile and deploy contracts with Cairo, a native smart contract language for StarkNet.",
+		"url": "https://cairo-remix-test.nethermind.io/",
+		"description": "Compile and deploy contracts with Cairo, a native smart contract language for Starknet.",
 		"icon": "https://res.cloudinary.com/lianahus/image/upload/v1643013278/webp/StarkNetLogo_2_izzamu.webp",
 		"location": "sidePanel",
-		"documentation": "https://github.com/groksmith/starkware-remix-plugin",
-		"repo": "https://github.com/groksmith/starkware-remix-plugin",
-		"maintainedBy": "",
-		"authorContact": ""
+		"documentation": "https://github.com/NethermindEth/starknet-remix-plugin",
+		"repo": "https://github.com/NethermindEth/starknet-remix-plugin",
+		"maintainedBy": "Nethermind",
+		"authorContact": "rohit@nethermind.io"
 	},
 	{
 		"name": "tenderly",
