@@ -1,13 +1,63 @@
 [
 	{
-		"description": "编译、部署、调用星火链网的 solidity 合约",
-		"displayName": "Bif Network",
+		"description": "Compile solidity contracts in iframe",
+		"displayName": "Solidity Compiler (iframe)",
 		"events": [],
-		"icon": "https://bitfactory.cn/favicon.ico",
+		"icon": "https://iframe-solidity.remix-project.cn/assets/img/iframe-solidity.webp",
 		"location": "sidePanel",
 		"methods": [],
-		"name": "bif",
-		"url": "//bif.remix-project.cn/"
+		"name": "iframe-solidity",
+		"url": "https://iframe-solidity.remix-project.cn/"
+	},
+	{
+		"description": "Execute, save and replay transactions in iframe",
+		"displayName": "Deploy and Run Transactions (iframe)",
+		"events": [],
+		"icon": "https://iframe-udapp.remix-project.cn/assets/img/iframe-udapp.webp",
+		"location": "sidePanel",
+		"methods": ["sendAsync", "resolve"],
+		"name": "iframe-udapp",
+		"url": "https://iframe-udapp.remix-project.cn/"
+	},
+	{
+		"description": "Debug transactions in iframe",
+		"displayName": "Debugger (iframe)",
+		"events": [],
+		"icon": "https://iframe-debugger.remix-project.cn/assets/img/iframe-debugger.webp",
+		"location": "sidePanel",
+		"methods": [],
+		"name": "iframe-debugger",
+		"url": "https://iframe-debugger.remix-project.cn/"
+	},
+	{
+		"description": "编译星火链网的 solidity 合约",
+		"displayName": "星火链网 Solidity 编译器",
+		"events": [],
+		"icon": "https://bif-solidity.remix-project.cn/assets/img/bif-solidity.webp",
+		"location": "sidePanel",
+		"methods": [],
+		"name": "bif-solidity",
+		"url": "https://bif-solidity.remix-project.cn/"
+	},
+	{
+		"description": "部署、调用星火链网的 solidity 合约",
+		"displayName": "星火链网 Solidity 合约部署与调用",
+		"events": [],
+		"icon": "https://bif-udapp.remix-project.cn/assets/img/bif-udapp.webp",
+		"location": "sidePanel",
+		"methods": [],
+		"name": "bif-udapp",
+		"url": "https://bif-udapp.remix-project.cn/"
+	},
+	{
+		"description": "部署、调用星火链网的 js 合约",
+		"displayName": "星火链网 JS 合约部署与调用",
+		"events": [],
+		"icon": "https://bif-udapp-js.remix-project.cn/assets/img/bif-udapp-js.webp",
+		"location": "sidePanel",
+		"methods": [],
+		"name": "bif-udapp-js",
+		"url": "https://bif-udapp-js.remix-project.cn/"
 	},
 	{
 		"name": "celo-remix-plugin",
@@ -39,21 +89,22 @@
 		"location": "sidePanel"
 	},
 	{
-		"name": "cookbook.dev",
+		"name": "cookbookdev",
 		"displayName": "Cookbook.dev",
-		"description": "Find any smart contract.",
-		"version": "0.1.0",
+		"description": "Find any smart contract, protocol, and library.",
+		"version": "0.1.2",
 		"events": [],
 		"methods": [
-			"openContract"
+			"openContract",
+			"openProtocol"
 		],
 		"kind": "none",
-		"icon": "https://www.cookbook.dev/img/logo.svg",
+		"icon": "https://www.cookbook.dev/img/cookbook-logo.png",
 		"location": "sidePanel",
 		"documentation": "https://www.cookbook.dev",
 		"url": "https://www.cookbook.dev/remix-plugin",
-		"maintainedBy": "JamJomJim",
-		"authorContact": "james@cookbook.dev",
+		"maintainedBy": "TylerSehr",
+		"authorContact": "tyler@cookbook.dev",
 		"targets": [
 			"remix",
 			"vscode"
@@ -337,8 +388,8 @@
 		"name": "Starknet",
 		"displayName": "Starknet",
 		"methods": [],
-		"version": "0.1.0-alpha",
-		"url": "https://cairo-remix-test.nethermind.io/",
+		"version": "0.2.2",
+		"url": "https://cairo-remix.nethermind.io/",
 		"description": "Compile and deploy contracts with Cairo, a native smart contract language for Starknet.",
 		"icon": "https://res.cloudinary.com/lianahus/image/upload/v1643013278/webp/StarkNetLogo_2_izzamu.webp",
 		"location": "sidePanel",
