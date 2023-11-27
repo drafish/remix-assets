@@ -30,35 +30,44 @@
 		"url": "https://iframe-debugger.remix-project.cn/"
 	},
 	{
-		"description": "编译星火链网的 solidity 合约",
-		"displayName": "星火链网 Solidity 编译器",
-		"events": [],
-		"icon": "https://bif-solidity.remix-project.cn/assets/img/bif-solidity.webp",
-		"location": "sidePanel",
-		"methods": [],
-		"name": "bif-solidity",
-		"url": "https://bif-solidity.remix-project.cn/"
-	},
-	{
-		"description": "部署、调用星火链网的 solidity 合约",
-		"displayName": "星火链网 Solidity 合约部署与调用",
-		"events": [],
-		"icon": "https://bif-udapp.remix-project.cn/assets/img/bif-udapp.webp",
-		"location": "sidePanel",
-		"methods": [],
-		"name": "bif-udapp",
-		"url": "https://bif-udapp.remix-project.cn/"
-	},
-	{
-		"description": "部署、调用星火链网的 js 合约",
-		"displayName": "星火链网 JS 合约部署与调用",
-		"events": [],
-		"icon": "https://bif-udapp-js.remix-project.cn/assets/img/bif-udapp-js.webp",
-		"location": "sidePanel",
-		"methods": [],
-		"name": "bif-udapp-js",
-		"url": "https://bif-udapp-js.remix-project.cn/"
-	},
+    "description": "编译星火链网的 solidity 合约",
+    "displayName": "星火链网 Solidity 编译器",
+    "events": [],
+    "icon": "https://bif-solidity.remix-project.cn/assets/img/bif-solidity.webp",
+    "location": "sidePanel",
+    "methods": [],
+    "name": "bif-solidity",
+    "url": "https://bif-solidity.remix-project.cn/",
+    "repo": "https://github.com/drafish/remix-bif-plugins",
+    "documentation": "https://github.com/drafish/remix-bif-plugins/blob/main/apps/solidity-compiler/README.md",
+    "maintainedBy": "drafish"
+  },
+  {
+    "description": "部署、调用星火链网的 solidity 合约",
+    "displayName": "星火链网 Solidity 合约部署与调用",
+    "events": [],
+    "icon": "https://bif-udapp.remix-project.cn/assets/img/bif-udapp.webp",
+    "location": "sidePanel",
+    "methods": [],
+    "name": "bif-udapp",
+    "url": "https://bif-udapp.remix-project.cn/",
+    "repo": "https://github.com/drafish/remix-bif-plugins",
+    "documentation": "https://github.com/drafish/remix-bif-plugins/blob/main/apps/udapp/README.md",
+    "maintainedBy": "drafish"
+  },
+  {
+    "description": "部署、调用星火链网的 js 合约",
+    "displayName": "星火链网 JS 合约部署与调用",
+    "events": [],
+    "icon": "https://bif-udapp-js.remix-project.cn/assets/img/bif-udapp-js.webp",
+    "location": "sidePanel",
+    "methods": [],
+    "name": "bif-udapp-js",
+    "url": "https://bif-udapp-js.remix-project.cn/",
+    "repo": "https://github.com/drafish/remix-bif-plugins",
+    "documentation": "https://github.com/drafish/remix-bif-plugins/blob/main/apps/udapp-js/README.md",
+    "maintainedBy": "drafish"
+  },
 	{
 		"name": "celo-remix-plugin",
 		"displayName": "Celo",
