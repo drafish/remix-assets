@@ -34,6 +34,6 @@ node index.js
 
 我们的国内镜像站已经下载了所有版本的编译器，而且都做了 CDN 加速。下面是其中一个编译器的链接
 
-https://assets.remix-project.cn/soliditylang/wasm/soljson-v0.8.18+commit.87f61d96.js
+https://remix-assets.learnblockchain.cn/soliditylang/wasm/soljson-v0.8.18+commit.87f61d96.js
 
 其他静态文件的链接也可以以此类推。
