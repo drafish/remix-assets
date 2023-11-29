@@ -3,31 +3,31 @@
 		"description": "Compile solidity contracts in iframe",
 		"displayName": "Solidity Compiler (iframe)",
 		"events": [],
-		"icon": "https://iframe-solidity.remix-project.cn/assets/img/iframe-solidity.webp",
+		"icon": "https://iframe-solidity.pages.dev/assets/img/iframe-solidity.webp",
 		"location": "sidePanel",
 		"methods": [],
 		"name": "iframe-solidity",
-		"url": "https://iframe-solidity.remix-project.cn/"
+		"url": "https://iframe-solidity.pages.dev/"
 	},
 	{
 		"description": "Execute, save and replay transactions in iframe",
 		"displayName": "Deploy and Run Transactions (iframe)",
 		"events": [],
-		"icon": "https://iframe-udapp.remix-project.cn/assets/img/iframe-udapp.webp",
+		"icon": "https://iframe-udapp.pages.dev/assets/img/iframe-udapp.webp",
 		"location": "sidePanel",
 		"methods": ["sendAsync", "resolve"],
 		"name": "iframe-udapp",
-		"url": "https://iframe-udapp.remix-project.cn/"
+		"url": "https://iframe-udapp.pages.dev/"
 	},
 	{
 		"description": "Debug transactions in iframe",
 		"displayName": "Debugger (iframe)",
 		"events": [],
-		"icon": "https://iframe-debugger.remix-project.cn/assets/img/iframe-debugger.webp",
+		"icon": "https://iframe-debugger.pages.dev/assets/img/iframe-debugger.webp",
 		"location": "sidePanel",
 		"methods": [],
 		"name": "iframe-debugger",
-		"url": "https://iframe-debugger.remix-project.cn/"
+		"url": "https://iframe-debugger.pages.dev/"
 	},
 	{
     "description": "编译星火链网的 solidity 合约",
