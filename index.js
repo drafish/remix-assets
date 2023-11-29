@@ -1,6 +1,7 @@
 import fetch from 'node-fetch';
 import fs from 'fs';
 import { dirname } from 'path'
+import HttpsProxyAgent from 'https-proxy-agent'
 
 const assetsList = [
   { url: 'https://cdnjs.cloudflare.com/ajax/libs/intro.js/4.1.0/introjs.min.css', path: './dist/cloudflare/4.1.0/introjs.min.css' },
@@ -35,7 +36,8 @@ for (let index = 0; index < assetsList.length; index++) {
         console.log(`${path}已存在`)
         continue
       }
-      const resp = await fetch(assets.url.replace('list.json', item.path));
+      const proxyAgent = new HttpsProxyAgent('http://127.0.0.1:7890');
+      const resp = await fetch(assets.url.replace('list.json', item.path), { agent: proxyAgent });
       const arrayBuffer = await resp.arrayBuffer();
       fs.writeFileSync(path, Buffer.from(arrayBuffer), "binary");
       console.log(`${path}下载成功`)
