@@ -3,41 +3,41 @@
 		"description": "Compile solidity contracts in iframe",
 		"displayName": "Solidity Compiler (iframe)",
 		"events": [],
-		"icon": "https://iframe-solidity.pages.dev/assets/img/iframe-solidity.webp",
+		"icon": "https://remix-chain.pages.dev/solidity-compiler/assets/img/iframe-solidity.webp",
 		"location": "sidePanel",
 		"methods": [],
 		"name": "iframe-solidity",
-		"url": "https://iframe-solidity.pages.dev/"
+		"url": "https://remix-chain.pages.dev/solidity-compiler/"
 	},
 	{
 		"description": "Execute, save and replay transactions in iframe",
 		"displayName": "Deploy and Run Transactions (iframe)",
 		"events": [],
-		"icon": "https://iframe-udapp.pages.dev/assets/img/iframe-udapp.webp",
+		"icon": "https://remix-chain.pages.dev/udapp/assets/img/iframe-udapp.webp",
 		"location": "sidePanel",
 		"methods": ["sendAsync", "resolve"],
 		"name": "iframe-udapp",
-		"url": "https://iframe-udapp.pages.dev/"
+		"url": "https://remix-chain.pages.dev/udapp/"
 	},
 	{
 		"description": "Debug transactions in iframe",
 		"displayName": "Debugger (iframe)",
 		"events": [],
-		"icon": "https://iframe-debugger.pages.dev/assets/img/iframe-debugger.webp",
+		"icon": "https://remix-chain.pages.dev/debugger/assets/img/iframe-debugger.webp",
 		"location": "sidePanel",
 		"methods": [],
 		"name": "iframe-debugger",
-		"url": "https://iframe-debugger.pages.dev/"
+		"url": "https://remix-chain.pages.dev/debugger/"
 	},
 	{
     "description": "编译星火链网的 solidity 合约",
     "displayName": "星火链网 Solidity 编译器",
     "events": [],
-    "icon": "https://bif-solidity.remix-project.cn/assets/img/bif-solidity.webp",
+    "icon": "https://bif.remix-project.cn/solidity-compiler/assets/img/bif-solidity.webp",
     "location": "sidePanel",
     "methods": [],
     "name": "bif-solidity",
-    "url": "https://bif-solidity.remix-project.cn/",
+    "url": "https://bif.remix-project.cn/solidity-compiler/",
     "repo": "https://github.com/caict-4iot-dev/remix-bif-plugins",
     "documentation": "https://github.com/caict-4iot-dev/remix-bif-plugins/blob/main/apps/solidity-compiler/README.md",
     "maintainedBy": "caict-4iot-dev"
@@ -46,11 +46,11 @@
     "description": "部署、调用星火链网的 solidity 合约",
     "displayName": "星火链网 Solidity 合约部署与调用",
     "events": [],
-    "icon": "https://bif-udapp.remix-project.cn/assets/img/bif-udapp.webp",
+    "icon": "https://bif.remix-project.cn/udapp/assets/img/bif-udapp.webp",
     "location": "sidePanel",
     "methods": [],
     "name": "bif-udapp",
-    "url": "https://bif-udapp.remix-project.cn/",
+    "url": "https://bif.remix-project.cn/udapp/",
     "repo": "https://github.com/caict-4iot-dev/remix-bif-plugins",
     "documentation": "https://github.com/caict-4iot-dev/remix-bif-plugins/blob/main/apps/udapp/README.md",
     "maintainedBy": "caict-4iot-dev"
@@ -59,11 +59,11 @@
     "description": "部署、调用星火链网的 js 合约",
     "displayName": "星火链网 JS 合约部署与调用",
     "events": [],
-    "icon": "https://bif-udapp-js.remix-project.cn/assets/img/bif-udapp-js.webp",
+    "icon": "https://bif.remix-project.cn/udapp-js/assets/img/bif-udapp-js.webp",
     "location": "sidePanel",
     "methods": [],
     "name": "bif-udapp-js",
-    "url": "https://bif-udapp-js.remix-project.cn/",
+    "url": "https://bif.remix-project.cn/udapp-js/",
     "repo": "https://github.com/caict-4iot-dev/remix-bif-plugins",
     "documentation": "https://github.com/caict-4iot-dev/remix-bif-plugins/blob/main/apps/udapp-js/README.md",
     "maintainedBy": "caict-4iot-dev"
