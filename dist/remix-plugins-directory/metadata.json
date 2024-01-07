@@ -217,9 +217,9 @@
 			"addRepository"
 		],
 		"kind": "none",
-		"icon": "https://raw.githubusercontent.com/bunsenstraat/remix-learneth-plugin/master/src/assets/Font_Awesome_5_solid_book-reader.svg",
+		"icon": "https://remix-learneth-plugin.pages.dev/Font_Awesome_5_solid_book-reader.svg",
 		"location": "sidePanel",
-		"url": "https://learneth.web.app",
+		"url": "https://remix-learneth-plugin.pages.dev",
 		"repo": "https://github.com/bunsenstraat/remix-learneth-plugin",
 		"maintainedBy": "Remix",
 		"authorContact": "",
