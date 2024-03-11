@@ -7,13 +7,16 @@ const assetsList = [
   { url: 'https://cdnjs.cloudflare.com/ajax/libs/intro.js/4.1.0/introjs.min.css', path: './dist/cloudflare/4.1.0/introjs.min.css' },
   { url: 'https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.7.0/introjs.min.css', path: './dist/cloudflare/2.7.0/introjs.min.css' },
   { url: 'https://use.fontawesome.com/releases/v5.8.1/css/all.css', path: './dist/fontawesome/css/all.css' },
-  { url: 'https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-solid-900.woff2', path: './dist/fontawesome/webfonts/fa-solid-900.ttf' },
-  { url: 'https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-solid-900.woff2', path: './dist/fontawesome/webfonts/fa-solid-900.woff' },
+  { url: 'https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-solid-900.ttf', path: './dist/fontawesome/webfonts/fa-solid-900.ttf' },
+  { url: 'https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-solid-900.woff', path: './dist/fontawesome/webfonts/fa-solid-900.woff' },
   { url: 'https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-solid-900.woff2', path: './dist/fontawesome/webfonts/fa-solid-900.woff2' },
+  { url: 'https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-regular-400.ttf', path: './dist/fontawesome/webfonts/fa-regular-400.ttf' },
+  { url: 'https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-regular-400.woff', path: './dist/fontawesome/webfonts/fa-regular-400.woff' },
+  { url: 'https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-regular-400.woff2', path: './dist/fontawesome/webfonts/fa-regular-400.woff2' },
   { url: 'https://kit.fontawesome.com/41dd021e94.js', path: './dist/fontawesome/js/41dd021e94.js' },
-  { url: 'https://raw.githubusercontent.com/ethereum/remix-plugins-directory/master/build/metadata.json', path: './dist/remix-plugins-directory/metadata.json' },
-  { url: 'https://binaries.soliditylang.org/bin/list.json', path: './dist/soliditylang/bin/list.json' },
-  { url: 'https://binaries.soliditylang.org/wasm/list.json', path: './dist/soliditylang/wasm/list.json' }
+  // { url: 'https://raw.githubusercontent.com/ethereum/remix-plugins-directory/master/build/metadata.json', path: './dist/remix-plugins-directory/metadata.json' },
+  // { url: 'https://binaries.soliditylang.org/bin/list.json', path: './dist/soliditylang/bin/list.json' },
+  // { url: 'https://binaries.soliditylang.org/wasm/list.json', path: './dist/soliditylang/wasm/list.json' }
 ]
 
 for (let index = 0; index < assetsList.length; index++) {
